@@ -1312,9 +1312,9 @@
                 const minY = Math.min(...data.map(point => point.y));
                 const maxY = Math.max(...data.map(point => point.y));
 
-                const adjustedMinY = minY - (minY * 0.4);
+                const adjustedMinY = minY - (minY * 0.2);
 
-                const adjustedMaxY = maxY + (maxY * 0.4); 
+                const adjustedMaxY = maxY + (maxY * 0.2); 
 
                 const myChart = new Chart(ctx, {
                     type: 'line',
